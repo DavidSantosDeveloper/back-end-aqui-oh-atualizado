@@ -7,7 +7,7 @@ import cors from "cors"; //
 import * as mensagem from "./mensagem"; 
 import * as user from "./user";
 import * as competencia from "./competencia"; 
-const port = 3001;
+const port = 8080;
 const app = express();
 
 app.use(cors()); 
